@@ -1,6 +1,9 @@
 # Prerequisites
 *.d
 
+# CLion folder
+./idea
+
 # Compiled Object files
 *.slo
 *.lo
