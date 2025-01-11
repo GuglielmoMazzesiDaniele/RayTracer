@@ -1,0 +1,3 @@
+/home/mazze/Desktop/CG/Assignments/Raytracing/Code/cmake-build-debug/CMakeFiles/Raytracing.dir
+/home/mazze/Desktop/CG/Assignments/Raytracing/Code/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mazze/Desktop/CG/Assignments/Raytracing/Code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
