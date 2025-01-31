@@ -6,8 +6,6 @@ The project began as a series of assignments during the **2024 edition of the *C
 
 <img src="Images/Rendering%20Competition%20Still.png" width="750">  
 
----
-
 ## Features
 
 ### **Basic Features**
@@ -21,8 +19,6 @@ As of **January 30, 2025**, the ray tracer includes the following core functiona
     - Depth of field
     - Semi-gloss surfaces (e.g., opaque mirrors)
     - Adaptive super-sampling anti-aliasing
-
----
 
 ### **Advanced Features**
 
@@ -58,8 +54,6 @@ In addition to the basics, the ray tracer includes several advanced techniques:
 - **Participating Media (Volume Rendering)**
     - Only simulates basic **light absorption in volumetric media**.
     - Supports both **simple primitives** and **complex mesh-based volumes**.
-
----
 
 ## Installation & Usage
 
