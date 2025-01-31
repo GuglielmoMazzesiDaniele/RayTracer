@@ -1,53 +1,76 @@
 # Ray Tracer
 
-<img src="Images/Rendering%20Competition%20Still.png" width="750">
+This repository contains a ray tracer implemented from scratch in **C++**, leveraging the **GLM (OpenGL Mathematics)** library for mathematical operations.
 
-This repository contains a ray tracer implemented from scratch using only C++ and some basic functionalities offered
-by the **GLM (OpenGL Mathematics)** library.
+The project began as a series of assignments during the **2024 edition of the *Computer Graphics* course** as part of the **Bachelor of Informatics** at [USI](https://www.usi.ch/en/education/bachelor/informatics). Over time, I expanded its capabilities, ultimately leading to my victory in the **4th edition of USI’s Rendering Competition**.
 
-It started as a sequence of assignments during the 2024th edition of *Computer Graphics*, a course of the Bachelor of
-Informatics course at [USI](https://www.usi.ch/en/education/bachelor/informatics).
+<img src="Images/Rendering%20Competition%20Still.png" width="750">  
 
-During the course I implemented multiple features, which ultimately allowed me to win the 4th edition of the USI's 
-Rendering Competition.
+---
 
-## Basic Features
+## Features
 
-As per today, 30th January 2025, the Ray Tracer implementation includes the following basic features:
+### **Basic Features**
 
-+ *Primitives Shapes*: sphere, cones, planes, cylinders and triangles are all included and functioning.
+As of **January 30, 2025**, the ray tracer includes the following core functionalities:
 
-+ *Reflection and Refraction*: both of this core ray tracing features have been implemented and used extensively.
+- **Primitive Shapes**: Supports rendering of spheres, cones, planes, cylinders, and triangles.
+- **Reflection & Refraction**: Implements both reflection and refraction to achieve realistic light interactions.
+- **Meshes**: Supports parsing and rendering of **OBJ** files along with associated **MTL** files.
+- **Stochastic Ray Tracing**: Enables effects such as:
+    - Depth of field
+    - Semi-gloss surfaces (e.g., opaque mirrors)
+    - Adaptive super-sampling anti-aliasing
 
-+ *Meshes*: the software is able to parse complex OBJ files and associated MTL files, creating corresponding meshes 
-and materials.
+---
 
-+ *Stochastic Ray Tracing*: by adopting a stochastic approach to ray tracing, I was able to render effects such as depth
-+ of field, semigloss materials such opaque mirrors and adaptive super-sampling antialiasing.
+### **Advanced Features**
 
-## Advanced Features
+In addition to the basics, the ray tracer includes several advanced techniques:
 
-As per today, 30th January 2025, the ray tracer implementation includes the following more advanced features:
+- **Bounding Volume Hierarchy (BVH)**
+    - Implements **Surface Area Heuristic (SAH)**-based BVH for efficient ray-object intersection tests.
+    - Inspired by *Chapter 4* of [Physically Based Rendering (PBR)](https://pbr-book.org/3ed-2018/Primitives_and_Intersection_Acceleration) (3rd edition).
 
-+ *BVH*: using the Surface Area Heuristic, I implemented a Bounding Volume Hierarchy heavily inspired by the 
-implementation showcased in the 4th chapter of 
-[Physically Based Rendering](https://pbr-book.org/3ed-2018/Primitives_and_Intersection_Acceleration), 3th edition.
+- **Perlin Noise**
+    - Full implementation based on the original paper: ["An Image Synthesizer"](https://dl.acm.org/doi/10.1145/280811.280986).
+    - Additional refinements from ["Improving Noise"](https://dl.acm.org/doi/10.1145/566654.566636).
+    - Used for procedural textures, normal maps, and displacement mapping.
 
-+ *Perlin Noise*: I implemented a complete Perlin Noise algorithm, using both the original paper [An image synthesizer]
-(https://dl.acm.org/doi/10.1145/280811.280986) and the additional improvements explained in the paper
-[Improving noise](https://dl.acm.org/doi/10.1145/566654.566636). I used this algorithm to create a multitude of 
-different effects, such as normal maps, textures, and displacement maps.
+- **Cook-Torrance BRDF Model**
+    - Replaces the **Blinn-Phong shading model** for more physically accurate materials.
+    - Default distribution set to GGX. 
+    - Supports anisotropic reflections using anisotropic GGX distribution.
 
-+ *Cook-Torrance Model*: replacing the original Blinn-Phong model, I implemented this model to obtain a more realistic
-variety of materials and effects, including anisotropy.
 
-+ *Texturing Pipeline*: using sample texture taken from [Poly Haven](https://polyhaven.com/), I implemented a texturing
-pipeline able to apply albedo textures, ambient occlusion + roughness + metallic textures (AORM texture), displacement 
-maps, and normal maps.
+- **Texturing Pipeline**
+    - Integrates high-quality textures from [Poly Haven](https://polyhaven.com/).
+    - Supports multiple texture types, including:
+        - **Albedo**
+        - **AORM (Ambient Occlusion, Roughness, Metallic)**
+        - **Displacement Maps**
+        - **Normal Maps**
 
-+ *Photons Mapping*: using [A Practical Guide to Global Illumination using Photon Maps]
-(https://graphics.stanford.edu/courses/cs348b-01/course8.pdf) I implemented an algorithm able to render caustics 
-generated by spheres of glass.
+- **Photon Mapping**
+    - Implements **global illumination techniques** based on ["A Practical Guide to Global Illumination using Photon Maps"](https://graphics.stanford.edu/courses/cs348b-01/course8.pdf).
+    - Allows for accurate **caustic rendering**, especially for glass objects.
 
-+ *Participating Media*: I implemented a basic volume rendering technique able to render volume absorbing lights. This
-algorithm can use both basic primitives such as planes and complex mesh-based shapes.
+- **Participating Media (Volume Rendering)**
+    - Only simulates basic **light absorption in volumetric media**.
+    - Supports both **simple primitives** and **complex mesh-based volumes**.
+
+---
+
+## Installation & Usage
+
+🔧 **Requirements**:
+- C++17 (or later)
+- GLM (OpenGL Mathematics)
+- A C++ compiler (e.g., GCC, Clang, MSVC)
+
+### **Compilation**
+
+To compile the project, use:
+
+```sh
+g++ -std=c++17 -O3 -fopenmp -o raytracer main.cpp
