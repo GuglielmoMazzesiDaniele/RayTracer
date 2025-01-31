@@ -14,6 +14,9 @@ As of **January 30, 2025**, the ray tracer includes the following core functiona
 
 - **Primitive Shapes**: Supports rendering of spheres, cones, planes, cylinders, and triangles.
 - **Reflection & Refraction**: Implements both reflection and refraction to achieve realistic light interactions.
+
+<img src="Images/Meshes.png" width="750">
+
 - **Meshes**: Supports parsing and rendering of **OBJ** files along with associated **MTL** files.
 - **Stochastic Ray Tracing**: Enables effects such as:
     - Depth of field
