@@ -6,6 +6,7 @@ library for mathematical operations.
 The project began as a series of assignments during the **2024 edition of the *Computer Graphics* course** as part of 
 the **Bachelor of Informatics** at [USI](https://www.usi.ch/en/education/bachelor/informatics). Over time, I expanded its capabilities, ultimately leading to my victory
 in the **4th edition of USI’s Rendering Competition**.
+
 Below is the final rendering I submitted for the competition.
 
 <video width="750" controls>
