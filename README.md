@@ -13,11 +13,15 @@ The project began as a series of assignments during the **2024 edition of the *C
 As of **January 30, 2025**, the ray tracer includes the following core functionalities:
 
 - **Primitive Shapes**: Supports rendering of spheres, cones, planes, cylinders, and triangles.
+- **Light Sources**: Supports all basic type of light sources, including:
+  - **Point Lights**
+  - **Directional Lights**
+  - **Area Lights**
 - **Reflection & Refraction**: Implements both reflection and refraction to achieve realistic light interactions.
+- **Meshes**: Supports parsing and rendering of **OBJ** files along with associated **MTL** files.
 
 <img src="Images/Meshes.png" width="750">
 
-- **Meshes**: Supports parsing and rendering of **OBJ** files along with associated **MTL** files.
 - **Stochastic Ray Tracing**: Enables effects such as:
     - Depth of field
     - Semi-gloss surfaces (e.g., opaque mirrors)
