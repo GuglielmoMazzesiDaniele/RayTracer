@@ -9,10 +9,7 @@ in the **4th edition of USI’s Rendering Competition**.
 
 Below is the final rendering I submitted for the competition.
 
-<video width="750" controls>
-  <source src="Videos/Competition%20Submission.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Watch the video](Images/Rendering%20Competition%20Still.png)]([https://www.youtube.com/watch?v=dQw4w9WgXcQ](https://www.youtube.com/watch?v=noWANu9wKBg&ab_channel=GuglielmoMazzesi))
 
 ## Features
 
