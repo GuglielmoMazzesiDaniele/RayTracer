@@ -8,7 +8,10 @@ the **Bachelor of Informatics** at [USI](https://www.usi.ch/en/education/bachelo
 in the **4th edition of USI’s Rendering Competition**.
 Below is the final rendering I submitted for the competition
 
-<img src="Images/Rendering%20Competition%20Still.png" width="750"> 
+<video width="750" controls>
+  <source src="Videos/Competition%20Submission.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Features
 
