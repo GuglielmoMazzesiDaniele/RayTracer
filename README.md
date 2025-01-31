@@ -58,6 +58,11 @@ In addition to the basics, the ray tracer includes several advanced techniques:
         - **Displacement Maps**
         - **Normal Maps**
 
+<video width="750" controls>
+  <source src="Videos/Texturing%20Pipeline.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 - **Photon Mapping**
     - Implements **global illumination techniques** based on ["A Practical Guide to Global Illumination using Photon Maps"](https://graphics.stanford.edu/courses/cs348b-01/course8.pdf).
     - Allows for accurate **caustic rendering**, especially for glass objects.
