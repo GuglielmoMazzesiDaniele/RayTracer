@@ -9,7 +9,6 @@ in the **4th edition of USI’s Rendering Competition**.
 
 Below is the final rendering I submitted for the competition.
 
-<img src="Images/Still.png" width=750>
 <video width="750" controls>
   <source src="Videos/Competition%20Submission.mp4" type="video/mp4">
   Your browser does not support the video tag.
@@ -28,9 +27,6 @@ As of **January 30, 2025**, the ray tracer includes the following core functiona
   - **Area Lights**
 - **Reflection & Refraction**: Implements both reflection and refraction to achieve realistic light interactions.
 - **Meshes**: Supports parsing and rendering of **OBJ** files along with associated **MTL** files.
-
-<img src="Images/Meshes.png" width="750">
-
 - **Stochastic Ray Tracing**: Enables effects such as:
     - Depth of field
     - Semi-gloss surfaces (e.g., opaque mirrors)
@@ -49,11 +45,12 @@ In addition to the basics, the ray tracer includes several advanced techniques:
     - Additional refinements from ["Improving Noise"](https://dl.acm.org/doi/10.1145/566654.566636).
     - Used for procedural textures, normal maps, and displacement mapping.
 
+
+
 - **Cook-Torrance BRDF Model**
     - Replaces the **Blinn-Phong shading model** for more physically accurate materials.
     - Default distribution set to GGX. 
     - Supports anisotropic reflections using anisotropic GGX distribution.
-
 
 - **Texturing Pipeline**
     - Integrates high-quality textures from [Poly Haven](https://polyhaven.com/).
@@ -62,11 +59,6 @@ In addition to the basics, the ray tracer includes several advanced techniques:
         - **AORM (Ambient Occlusion, Roughness, Metallic)**
         - **Displacement Maps**
         - **Normal Maps**
-
-<video width="750" controls>
-  <source src="Videos/Texturing%20Pipeline.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
 - **Photon Mapping**
     - Implements **global illumination techniques** based on ["A Practical Guide to Global Illumination using Photon Maps"](https://graphics.stanford.edu/courses/cs348b-01/course8.pdf).
