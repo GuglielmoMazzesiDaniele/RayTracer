@@ -9,7 +9,7 @@ in the **4th edition of USI’s Rendering Competition**.
 
 Below is the final rendering I submitted for the competition.
 
-[![Watch the video](Images/Rendering%20Competition%20Still.png)]([https://www.youtube.com/watch?v=dQw4w9WgXcQ](https://www.youtube.com/watch?v=noWANu9wKBg&ab_channel=GuglielmoMazzesi))
+[![Watch the video](Images/Rendering%20Competition%20Still.png)](https://www.youtube.com/watch?v=noWANu9wKBg&ab_channel=GuglielmoMazzesi)
 
 ## Features
 
