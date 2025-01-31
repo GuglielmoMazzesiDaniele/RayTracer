@@ -1,10 +1,14 @@
 # Ray Tracer
 
-This repository contains a ray tracer implemented from scratch in **C++**, leveraging the **GLM (OpenGL Mathematics)** library for mathematical operations.
+This repository contains a ray tracer implemented from scratch in **C++**, leveraging the **GLM (OpenGL Mathematics)** 
+library for mathematical operations.
 
-The project began as a series of assignments during the **2024 edition of the *Computer Graphics* course** as part of the **Bachelor of Informatics** at [USI](https://www.usi.ch/en/education/bachelor/informatics). Over time, I expanded its capabilities, ultimately leading to my victory in the **4th edition of USI’s Rendering Competition**.
+The project began as a series of assignments during the **2024 edition of the *Computer Graphics* course** as part of 
+the **Bachelor of Informatics** at [USI](https://www.usi.ch/en/education/bachelor/informatics). Over time, I expanded its capabilities, ultimately leading to my victory
+in the **4th edition of USI’s Rendering Competition**.
+Below is the final rendering I submitted for the competition
 
-<img src="Images/Rendering%20Competition%20Still.png" width="750">  
+<img src="Images/Rendering%20Competition%20Still.png" width="750"> 
 
 ## Features
 
