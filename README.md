@@ -5,7 +5,7 @@ library for mathematical operations.
 
 The project began as a series of assignments during the **2024 edition of the *Computer Graphics* course** as part of 
 the **Bachelor of Informatics** at [USI](https://www.usi.ch/en/education/bachelor/informatics). Over time, I expanded its capabilities, ultimately leading to my victory
-in the **4th edition of USI’s Rendering Competition**. Extra material can be found ![here](https://www.canva.com/design/DAGZYkQ1Cr8/PJz2TZt0XKkiR7Wp_6wneQ/edit?utm_content=DAGZYkQ1Cr8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+in the **4th edition of USI’s Rendering Competition**. Extra material can be found [here](https://www.canva.com/design/DAGZYkQ1Cr8/PJz2TZt0XKkiR7Wp_6wneQ/edit?utm_content=DAGZYkQ1Cr8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 Below is the final rendering I submitted for the competition.
 
