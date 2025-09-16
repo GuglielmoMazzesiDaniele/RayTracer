@@ -259,8 +259,8 @@ inline void defineDefaultScene (const int frame_number) {
     // planes.push_back(new Plane (front_plane_transform, grey_material));
 
     // MESHES
-	// buildMaterialMesh(new Mesh("./Meshes/Course Mesh/Armadillo.obj"), armadillo_transform, grey_material);
-	buildMaterialMesh(new Mesh("./Meshes/Course Mesh/Bunny.obj"), bunny_transform, grey_material);
+	buildMaterialMesh(new Mesh("./Meshes/Course Mesh/Armadillo.obj"), armadillo_transform, grey_material);
+	// buildMaterialMesh(new Mesh("./Meshes/Course Mesh/Bunny.obj"), bunny_transform, grey_material);
 	// buildMaterialMesh(new Mesh("./Meshes/Course Mesh/Lucy.obj"), lucy_transform, grey_material);
     // buildMaterialMesh( new Mesh("./Meshes/OBJ/Polygon.obj"), polygon_transform, grey_material);
     // buildMaterialMesh( new Mesh("./Meshes/Mathilda/Mathilda.obj"), mathilda_transform, grey_material);

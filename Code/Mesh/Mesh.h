@@ -630,7 +630,7 @@ public:
         clock_t current_time = clock();
 
         if(PRINT_OBJ_PARSING_TIME)
-            PrintStartingProcess("parsing of" + this->obj_path);
+            PrintStartingProcess("parsing of " + this->obj_path);
 
         // Reading the OBJ file at provided path
         if(!this->obj_path.empty())
