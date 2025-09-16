@@ -5,6 +5,8 @@
 #ifndef IMPORT_H
 #define IMPORT_H
 
+#define _USE_MATH_DEFINES
+
 // C++ libraries
 #include <iostream>
 #include <fstream>

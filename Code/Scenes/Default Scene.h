@@ -236,9 +236,9 @@ inline void defineDefaultScene (const int frame_number) {
     // AreaLight(fourth_area_light_transform, glm::vec3(50), glm::vec3(1), 1, 60, false);
 
     // SPHERES
-    // primitives.push_back(new Sphere(small_sphere_transform, & green_material));
-    // primitives.push_back(new Sphere(normal_sphere_transform, & blue_material));
-    // primitives.push_back(new Sphere(big_sphere_transform, & red_material,
+    primitives.push_back(new Sphere(small_sphere_transform, & green_material));
+    primitives.push_back(new Sphere(normal_sphere_transform, & smooth_reflective_material));
+    primitives.push_back(new Sphere(big_sphere_transform, & glass_material));
     // 	new Texture("./Textures/Sphere/Fabric/Albedo.jpg"),
     // 	new Texture("./Textures/Sphere/Fabric/Normal.jpg"),
     // 	new Texture("./Textures/Sphere/Fabric/AO-R-M.jpg")));
@@ -264,12 +264,6 @@ inline void defineDefaultScene (const int frame_number) {
 	// buildMaterialMesh(new Mesh("./Meshes/Course Mesh/Lucy.obj"), lucy_transform, grey_material);
     // buildMaterialMesh( new Mesh("./Meshes/OBJ/Polygon.obj"), polygon_transform, grey_material);
     // buildMaterialMesh( new Mesh("./Meshes/Mathilda/Mathilda.obj"), mathilda_transform, grey_material);
-    buildMaterialMesh(new Mesh("./Meshes/Ottoman/Ottoman.obj",
-    	nullptr,
-    	new Texture("./Meshes/Ottoman/Albedo.jpg"),
-    	nullptr,
-    	new Texture("./Meshes/Ottoman/AO-R-M.jpg")
-    	), mesh_transform, grey_material);
 	// buildMaterialMesh(new Mesh("./Meshes/Armor/Armor.obj",
 	// 	"./Meshes/Armor/Albedo.png"),
 	// 	armor_transform, armor_material);
