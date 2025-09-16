@@ -18,7 +18,6 @@ Below is the final rendering I submitted for the competition.
 As of **January 30, 2025**, the ray tracer includes the following core functionalities:
 
 - **Primitive Shapes**: Supports rendering of spheres, cones, planes, cylinders, and triangles.
-![Photon Mapping](https://github.com/GuglielmoMazzesiDaniele/RayTracer/blob/main/Images/Photon%20Mapping.png)
 - **Light Sources**: Supports all basic type of light sources, including:
   - **Point Lights**
   - **Directional Lights**
@@ -42,8 +41,7 @@ In addition to the basics, the ray tracer includes several advanced techniques:
     - Full implementation based on the original paper: ["An Image Synthesizer"](https://dl.acm.org/doi/10.1145/280811.280986).
     - Additional refinements from ["Improving Noise"](https://dl.acm.org/doi/10.1145/566654.566636).
     - Used for procedural textures, normal maps, and displacement mapping.
-
-
+      ![Perlin Terrain](https://github.com/GuglielmoMazzesiDaniele/RayTracer/blob/main/GIFs/Perlin%20Terrain.gif)
 
 - **Cook-Torrance BRDF Model**
     - Replaces the **Blinn-Phong shading model** for more physically accurate materials.
@@ -57,6 +55,7 @@ In addition to the basics, the ray tracer includes several advanced techniques:
         - **AORM (Ambient Occlusion, Roughness, Metallic)**
         - **Displacement Maps**
         - **Normal Maps**
+     ![Texturing Pipeline](https://github.com/GuglielmoMazzesiDaniele/RayTracer/blob/main/GIFs/Texturing%20Pipeline.gif)
 
 - **Photon Mapping**
     - Implements **global illumination techniques** based on ["A Practical Guide to Global Illumination using Photon Maps"](https://graphics.stanford.edu/courses/cs348b-01/course8.pdf).
