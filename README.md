@@ -41,7 +41,7 @@ In addition to the basics, the ray tracer includes several advanced techniques:
 - **Perlin Noise**
     - Full implementation based on the original paper: ["An Image Synthesizer"](https://dl.acm.org/doi/10.1145/280811.280986).
     - Additional refinements from ["Improving Noise"](https://dl.acm.org/doi/10.1145/566654.566636).
-    - Used for procedural textures, normal maps, and displacement mapping.
+    - Used for procedural textures and procedural meshes.
 ![Perlin Terrain](https://github.com/GuglielmoMazzesiDaniele/RayTracer/blob/main/GIFs/Perlin%20Terrain.gif)
 
 - **Cook-Torrance BRDF Model**
