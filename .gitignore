@@ -35,5 +35,5 @@
 *.app
 
 # Meshes
-./Meshes
-./Meshes/*
+Meshes/*
+Meshes
