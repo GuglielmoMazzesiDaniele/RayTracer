@@ -18,7 +18,7 @@ Below is the final rendering I submitted for the competition.
 As of **January 30, 2025**, the ray tracer includes the following core functionalities:
 
 - **Primitive Shapes**: Supports rendering of spheres, cones, planes, cylinders, and triangles.
-![Photon Mapping]([http://url/to/img.png](https://github.com/GuglielmoMazzesiDaniele/RayTracer/blob/main/Images/Photon%20Mapping.png))
+![Photon Mapping](https://github.com/GuglielmoMazzesiDaniele/RayTracer/blob/main/Images/Photon%20Mapping.png)
 - **Light Sources**: Supports all basic type of light sources, including:
   - **Point Lights**
   - **Directional Lights**
