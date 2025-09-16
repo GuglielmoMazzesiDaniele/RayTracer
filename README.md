@@ -60,12 +60,13 @@ In addition to the basics, the ray tracer includes several advanced techniques:
 ![Texturing Pipeline](https://github.com/GuglielmoMazzesiDaniele/RayTracer/blob/main/GIFs/Texturing%20Pipeline.gif)
 
 - **OBJ & MTL Parser**
-    - Fully implemented OBJ & MTL parser, allowing import of meshes from common websites such as [Sketchab](https://sketchfab.com/feed)
+    - Fully implemented OBJ & MTL parser, allowing import of meshes from websites such as [Sketchab](https://sketchfab.com/feed)
 ![Complex Mesh](https://github.com/GuglielmoMazzesiDaniele/RayTracer/blob/main/Images/Armor.png)
 
 - **Photon Mapping**
     - Implements **global illumination techniques** based on ["A Practical Guide to Global Illumination using Photon Maps"](https://graphics.stanford.edu/courses/cs348b-01/course8.pdf).
     - Allows for accurate **caustic rendering**, especially for glass objects.
+![Photon Mapping](https://github.com/GuglielmoMazzesiDaniele/RayTracer/blob/main/Images/Photon%20Mapping.png)
 
 - **Participating Media (Volume Rendering)**
     - Only simulates basic **light absorption in volumetric media**.
